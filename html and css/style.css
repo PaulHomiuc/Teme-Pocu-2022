@@ -1,0 +1,56 @@
+input{
+background-color:rgb(241, 234, 234);
+border-radius: 0.5rem;
+width: 60%;
+align-items: center;
+height: 2rem;
+margin: 1rem;
+
+
+}
+label{
+    font-size: small;
+    color:  rgba(52, 52, 52, 0.29);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h1,button,.fundal{
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button{
+    border-radius: 5rem;
+    background-color: rgb(12, 63, 152);
+ 
+    padding: 1rem;
+    border-color: rgb(255, 255, 255);
+  width: 15rem;
+  margin-left: 20%;
+}
+form{
+    align-items: center;
+    text-align: left;
+    padding-left: 25%;
+    border-radius: 10rem;
+
+    
+}
+.fundal{
+background-image: url("munte.jpg");
+background-repeat: no-repeat, repeat;
+border-radius: 2rem 2rem 0 0;
+background-size:cover;
+width: 63%;
+height: 10rem;
+text-align: center;
+display:flex;
+align-items: center;
+justify-content: center;
+font-size: larger;
+
+}
+#check{
+    height: 0.3cm;
+   width: auto;
+}
