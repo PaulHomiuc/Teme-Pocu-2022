@@ -1,0 +1,73 @@
+* {
+  color: rgb(61, 61, 61);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.title {
+  text-align: center;
+  align-items: center;
+
+  margin-top: 3rem;
+  color: rgba(215, 215, 215, 0.662);
+}
+.logo{
+  height: 3rem;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  
+  float: right;
+
+}
+h3 {
+  padding-left: 2rem;
+}
+.endava {
+  color: rgba(222, 65, 27, 255);
+
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 0.5em;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+.item {
+  background-color: white;
+  margin: 1.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 120px;
+  height: 90px;
+  border-bottom: 2px solid lightgray;
+  border-top: 2px solid rgba(222, 65, 27, 255);
+  border-left: 2px solid rgb(240, 240, 240);
+  border-right: 2px solid rgb(240, 240, 240);
+  border-radius: 7px;
+  align-items: center;
+  text-align: center;
+}
+.elementleft{
+  display: flex;
+  flex-direction: row;
+  float: left;
+
+}
+.elementright{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  margin-left: 60rem;
+}
+footer{background-color: rgb(228, 225, 225);}
+
